@@ -1,0 +1,16 @@
+{
+  "name": "competitive programming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "cat input.txt | ts-node index.ts",
+    "answer": "tsc | cat index.js | pbcopy"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.42"
+  }
+}
