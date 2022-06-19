@@ -6,7 +6,8 @@
   "scripts": {
     "start": "ts-node index.ts",
     "test": "cat input.txt | ts-node index.ts",
-    "answer": "tsc index.ts | cat index.js | pbcopy | rm index.js"
+    "answer": "tsc index.ts | cat index.js | pbcopy | rm index.js",
+    "init": "echo '' > index.ts; echo '' > input.txt"
   },
   "author": "",
   "license": "ISC",
